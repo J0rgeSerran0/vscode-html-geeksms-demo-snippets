@@ -1,0 +1,35 @@
+{
+    "name": "geeks-ms",
+    "publisher": "jorgeserrano",
+    "displayName": "Geeks.ms",
+    "description": "Extension sample",
+    "icon": "images/html.png",
+    "version": "0.0.1",
+    "author": "Jorge Serrano",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/J0rgeSerran0/vscode-html-geeksms-demo-snippets.git"
+    },
+    "categories": [
+        "Languages",
+        "Snippets"
+    ],
+    "keywords": [
+        "HTML",
+        "Languages",
+        "Snippets",
+        "Web"
+    ],    
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            }
+        ]
+    }
+}
